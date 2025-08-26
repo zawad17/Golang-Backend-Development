@@ -1,7 +1,8 @@
 package main
+
 import "fmt"
 
-func main(){
+func printVariables() {
 	fmt.Println("Hello, Zawad!")
 	/*
 
@@ -13,9 +14,9 @@ func main(){
 	c := 20
 	fmt.Println(a, b, c)
 	fmt.Println(a + b + c)
-	d := true 
+	d := true
 	fmt.Println(d)
-	d = false 
+	d = false
 	fmt.Println(d)
-	
+
 }

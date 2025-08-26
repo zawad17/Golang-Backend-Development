@@ -1,18 +1,20 @@
 package main
+
 import "fmt"
-func main(){
+
+func mainPractice() {
 
 	//Basic level 01 if else condition
 
 	/*
-	var number int 
-	fmt.Println("Enter a number:")
-	fmt.Scanln(&number)
-	if number % 2== 0{
-		fmt.Println("The number is even")
-	}else{
-		fmt.Println("The number is odd")
-	}
+		var number int
+		fmt.Println("Enter a number:")
+		fmt.Scanln(&number)
+		if number % 2== 0{
+			fmt.Println("The number is even")
+		}else{
+			fmt.Println("The number is odd")
+		}
 	*/
 
 	//Basic level 02 if else condition
@@ -22,9 +24,9 @@ func main(){
 	fmt.Scanln(&username)
 	fmt.Println("Enter your password: ")
 	fmt.Scanln(&password)
-	if username =="admin" && password == "12345abc"{
+	if username == "admin" && password == "12345abc" {
 		fmt.Println("Login Successful")
-	}else{
+	} else {
 		fmt.Println("Login Failed")
 	}
 
